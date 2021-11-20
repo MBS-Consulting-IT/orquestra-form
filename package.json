@@ -1,0 +1,45 @@
+{
+  "name": "orquestra-form",
+  "description": "JavaScript Form utility library",
+  "version": "0.0.1",
+  "main": "dist/orquestra-form.esm.js",
+  "module": "dist/orquestra-form.esm.js",
+  "scripts": {
+    "dev": "esbuild src/main.js --outfile=dist/orquestra-form-esm.js --bundle --watch",
+    "prebuild": "rimraf dist",
+    "build": "esbuild src/main.js --outfile=dist/orquestra-form-esm.js --bundle",
+    "lint": "eslint src/**/*.js --max-warnings=0",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.js": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MBS-Consulting-IT/orquestra-form.git"
+  },
+  "keywords": [],
+  "author": "Pedro Bernardo <pedrovbernardo@gmail.com>",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/MBS-Consulting-IT/orquestra-form/issues"
+  },
+  "homepage": "https://github.com/MBS-Consulting-IT/orquestra-form#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "esbuild": "^0.13.14",
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.0.3",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.60.0"
+  },
+  "dependencies": {
+    "orquestra-utils": "0.5.13"
+  }
+}
