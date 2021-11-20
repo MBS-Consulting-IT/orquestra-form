@@ -8,7 +8,7 @@
     "dev": "esbuild src/main.js --outfile=dist/orquestra-form-esm.js --bundle --watch",
     "prebuild": "rimraf dist",
     "build": "esbuild src/main.js --outfile=dist/orquestra-form-esm.js --bundle",
-    "lint": "eslint src/**/*.js --max-warnings=0",
+    "lint": "eslint src/**/*.js --max-warnings=0 --fix",
     "prepare": "husky install"
   },
   "lint-staged": {
@@ -18,7 +18,11 @@
     "type": "git",
     "url": "git+https://github.com/MBS-Consulting-IT/orquestra-form.git"
   },
-  "keywords": [],
+  "keywords": [
+    "form",
+    "orquestra",
+    "zeev"
+  ],
   "author": "Pedro Bernardo <pedrovbernardo@gmail.com>",
   "license": "LGPL-3.0",
   "bugs": {
