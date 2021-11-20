@@ -12,7 +12,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.js": "npm run lint"
+    "src/**/*.js": "npm run lint"
   },
   "repository": {
     "type": "git",
