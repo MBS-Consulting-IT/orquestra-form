@@ -1,7 +1,7 @@
 {
   "name": "orquestra-form",
   "description": "JavaScript Form utility library",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/orquestra-form.esm.js",
   "module": "dist/orquestra-form.esm.js",
   "scripts": {
