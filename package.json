@@ -5,9 +5,9 @@
   "main": "dist/orquestra-form.esm.js",
   "module": "dist/orquestra-form.esm.js",
   "scripts": {
-    "dev": "esbuild src/main.js --outfile=dist/orquestra-form.esm.js --bundle --watch",
+    "dev": "esbuild src/main.js --outfile=dist/orquestra-form.esm.js --bundle --watch --format=esm",
     "prebuild": "rimraf dist",
-    "build": "esbuild src/main.js --outfile=dist/orquestra-form.esm.js --bundle",
+    "build": "esbuild src/main.js --outfile=dist/orquestra-form.esm.js --bundle --format=esm",
     "lint": "eslint src/**/*.js --max-warnings=0 --fix",
     "prepare": "husky install"
   },
