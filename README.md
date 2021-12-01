@@ -23,11 +23,11 @@ yarn add orquestra-form
 
 Utilizando CDN
 ```html
-<script src="https://cdn.jsdelivr.net/gh/pedbernardo/orquestra-form@0.0.1/dist/orquestra-form.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/pedbernardo/orquestra-form@0.2.0/dist/orquestra-form.js"></script>
 
 <!-- ou minificado -->
 
-<script src="https://cdn.jsdelivr.net/gh/pedbernardo/orquestra-form@0.0.1/dist/orquestra-form.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/pedbernardo/orquestra-form@0.2.0/dist/orquestra-form.min.js"></script>
 ```
 
 
