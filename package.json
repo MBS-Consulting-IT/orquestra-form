@@ -7,7 +7,9 @@
   "scripts": {
     "dev": "esbuild src/main.js --outfile=dist/orquestra-form.esm.js --bundle --watch --format=esm",
     "prebuild": "rimraf dist",
-    "build": "esbuild src/main.js --outfile=dist/orquestra-form.esm.js --bundle --format=esm",
+    "build": "npm-run-all --parallel build:*",
+    "build:esm": "esbuild src/main.js --outfile=dist/orquestra-form.esm.js --bundle --format=esm",
+    "build:browser": "esbuild src/main.js --outfile=dist/orquestra-form.js --bundle --format=iife --global-name=Form",
     "lint": "eslint src/**/*.js --max-warnings=0 --fix",
     "prepare": "husky install"
   },
@@ -40,6 +42,7 @@
     "eslint-plugin-promise": "4.2.1",
     "husky": "^7.0.4",
     "lint-staged": "^12.0.3",
+    "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.2",
     "rollup": "^2.60.0"
   },
