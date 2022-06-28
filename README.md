@@ -1,5 +1,10 @@
-[![](https://data.jsdelivr.com/v1/package/gh/pedbernardo/orquestra-form/badge)](https://www.jsdelivr.com/package/gh/pedbernardo/orquestra-form)
-# 🖱️ Orquestra Form
+# Depreacted
+Este projeto foi movido para o repositório Zeev Form, favor utilizar o pacote [Zeev Form](https://github.com/pedbernardo/zeev-form)
+
+<br>
+<br>
+
+## 🖱️ Orquestra Form
 Função utilitária para tratar eventos em campos de formulário utilizando **objeto** de configuração. Oculte e mostre campos de formulário, execute funções, vincule condições e _task aliases_ através de um simples objeto.
 
 Ocultar e exibir campos em processos no Orquestra BPMS é uma tarefa muito recorrente, o Orquestra Form tenta desburocratizar essa função com um simples objeto de configuração.
